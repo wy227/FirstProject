@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>王莹</title>
+    <link rel="short icon" href="Resource/icon.png">
+
+    <!--stylesheet用来加载外部样式表-->
+    <link rel="stylesheet" href="ExternalStyle.css">
+
+
+    <style>
+        .L_body{
+            background:#c50206;
+        }
+
+        .L_one_div{
+            width: 90%;
+            margin: 0 auto;/*居中*/
+        }
+        .L_one_div span{
+            line-height: 40px;/*使文字居中*/
+        }
+
+        .L_second_div{
+            text-align: center;
+            background-color: #c50206;
+        }
+        .L_head_img{
+            margin-top: 50px;
+            font-color: white;
+
+        }
+
+        .L_form_div{
+            width: 60%;
+            margin: 0 auto;/*居中*/
+            border-radius: 5px;
+            height: 140px;
+            margin-top: 30px;
+        }
+
+        .L_account_div{
+            height: 50px;
+            border:2px solid #cc9b13;
+            border-radius: 10px;/*边框变弧形*/
+        }
+
+        .L_password_div{
+            height:50px;
+            border:2px solid #cc9b13;
+            border-radius: 10px;/*边框变弧形*/
+        }
+
+        .L_form_div div span{
+            font-size: 20px;
+            padding-left: 15px;
+            line-height: 50px;/*使文字居中*/
+            color: white;
+        }
+
+        input{
+            outline: medium;/*外面的消失*/
+            background-color: transparent;
+            border: 0;
+        }
+
+        .L_login_btn_div{
+            height: 50px;
+            background: #ff250b;
+            width: 60%;
+            border-radius: 10px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .L_login_btn_div input{
+            line-height: 50px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .L_left_img{
+            float: left;
+            margin-right: 10px;
+            margin-top: 10px;
+            transform:rotate(180deg);
+        }
+
+
+    </style>
+
+</head>
+<body class="L_body">
+
+<!--第一部分-->
+<!--语义化标签：增强代码的可读性-->
+<header class="header">
+    <div class="L_one_div">
+        <img class="L_left_img" src="Resource2/right.png" alt="">
+        <span>登录</span>
+    </div>
+</header>
+
+<!--第二部分-->
+<div class="L_second_div">
+    <img class="L_head_img" src="Resource2/logo.png" alt="">
+</div>
+
+<!--第三部分-->
+<form class="L_form" action="">
+    <div class="L_form_div">
+        <div class="L_account_div">
+            <span>身份证号</span>
+            <input type="text" name="account"><br>
+        </div>
+        <br>
+        <div class="L_password_div">
+            <span>密码</span>
+            <input type="text" name="password"><br>
+        </div>
+    </div>
+    <div class="L_login_btn_div">
+        <input type="button" value="登录">
+    </div>
+
+
+</form>
+
+
+
+</body>
+</html>

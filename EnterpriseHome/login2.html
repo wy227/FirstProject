@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>王莹</title>
+    <link rel="shout icon" href="Resource/icon.png" >
+    <!--href 是路径-->
+    <!--加外部样式表-->
+    <link rel="stylesheet" href="ExternalStyle.css">
+    <style>
+        body{
+            background-color:#c50206;
+        }
+        .L_first_section a{
+
+        }
+        .L_second{
+            text-align: center;
+        }
+        .L_second img{
+            margin-top: 30px;
+
+            width: 60%;
+
+        }
+        .L_form_div{
+            width: 80%;
+            background: #c50206;
+            /*居中*/
+            margin: 0 auto;
+
+            border-radius: 10px;
+            height: 80px;
+            margin-top: 30px;
+        }
+        .L_form_div div span{
+            font-size: 14px;
+            padding-left: 15px;
+            line-height: 40px;
+            color: white;
+
+
+        }
+        .L_account_div{
+            height: 40px;
+            border:1px solid yellow;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .L_password_div{
+            height: 40px;
+            border:1px solid yellow;
+            border-radius: 10px;
+            margin-bottom: 10px;
+
+         }
+        /*去输入边框*/
+        input{
+
+            outline: medium;
+            background-color: transparent;
+            border: 0;
+            margin-bottom: 10px;
+        }
+        .L_login_div{
+            height: 40px;
+            background-color:#e3574f;
+            width: 80%;
+            border: none;
+            border-radius: 10px;
+            margin: 25px auto;
+            text-align: center;
+
+
+        }
+
+        .L_login_div input{
+            line-height: 40px;
+            color: white;
+            font-size: 16px;
+
+        }
+        .L_first_section{
+            background-color: #c50206;
+            line-height: 44px;
+            /*小滴服务所在栏的宽度*/
+            width: 100%;
+            /*字体的大小*/
+            font-size: 18px;
+            color: white;
+            left: 0;
+            top: 0;
+            position: fixed;
+            text-align: center;
+        }
+        .L_first_section a img{
+            margin-left: 10px;
+            left: 0;
+            top: 10px;
+            position: fixed;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="L_first_section">
+    <a >
+        <img src="Resource2/left.png" alt="">
+        <span>登录</span>
+    </a>
+
+
+</div>
+
+
+<div class="L_second">
+    <img class="L_head_img" src="Resource2/logo.png">
+</div>
+
+<form action="">
+    <div class="L_form_div">
+        <div class="L_account_div">
+            <span>身份证号：</span>
+            <input ty="text" name="account"><br>
+        </div>
+        <div class="L_password_div">
+            <span>密码：</span>
+            <input type="text" name="password"><br>
+        </div>
+    </div>
+
+    <div class="L_login_div">
+        <input type="button" value="登录">
+    </div>
+
+
+
+</form>
+
+
+</body>
+</html>
